@@ -1,0 +1,43 @@
+body {
+	background: #eeeeee;
+}
+
+.alinha {
+	padding: 260px 558px;
+	line-height: 3px;
+}
+
+.md-button {
+	background-color: #e0e0e0;
+	padding: 15px 20px;
+	width: 100px;
+	line-height: 5px;
+	border: 0;
+  	text-align: center;
+  	text-decoration: none;
+  	outline: none;
+	box-shadow: 0 1px 1px 1px rgba(0,0,0,0.2);
+	text-transform: uppercase;
+	font-weight: bolder;
+	transition: background .2s, box-shadow .2s;
+}
+
+.md-button:hover {
+	cursor: pointer;
+	box-shadow: 0 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.md-button:focus {
+	box-shadow: 0 2px 2px 2px rgba(0,0,0,0.3);
+}
+
+.md-button:active {
+	transform: translateY(3px);
+	box-shadow: 0 3px 3px 3px rgba(0,0,0,0.24);
+}
+
+.md-button:disable {
+	box-shadow: none;
+	opacity: 0.6;
+	cursor: not-allowed;	
+}

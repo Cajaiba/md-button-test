@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>The Nervous Clicada</title>
+	<link rel="stylesheet" type="text/css" href="md-button.css">
+	<style> 
+
+.md-button.hover {
+	cursor: pointer;
+	box-shadow: 0 1px 1px 1px rgba(0,0,0,0.3)
+}
+
+.md-button.focus {
+	box-shadow: 0 2px 2px 2px rgba(0,0,0,0.3);
+}
+
+.md-button.active {
+ 	transform: translateY(3px);
+	box-shadow: 0 3px 3px 3px rgba(0,0,0,0.24);
+}
+
+.md-button.disable {
+	box-shadow: none;
+	opacity: 0.6;
+	cursor: not-allowed;	
+}
+
+</style>
+</head>
+<body>
+	<div class="alinha">
+	<input value="normal" type="submit" name="normal" class="md-button">
+	<p>
+	<input value="hover" type="submit" name="normal" class="md-button hover">
+	</p>
+	<p>
+	<input value="focused" type="submit" name="normal" class="md-button focus">
+	</p>
+	<p>
+	<input value="pressed" type="submit" name="normal" class="md-button active">
+	</p>
+	<p>
+	<input value="disabled" type="submit" name="normal" class="md-button disable">
+	</p>
+	</div>
+
+</body>
+</html>
